@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.overflow--hide {
+  overflow: hidden;
+}
+
 .margin-top-15 {
     margin-top: 15px;
 }
