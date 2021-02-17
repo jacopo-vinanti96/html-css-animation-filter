@@ -225,15 +225,15 @@
 @keyframes rotation-full-tw {
     0% {
         left: 10%;
-        top: -10px;
+        top: -19px;
     }
 
     25% {
         left: calc(70% + 58px);
-        top: -10px;
+        top: -19px;
     }
 
-    50% {
+    38% {
         left: calc(70% + 58px);
         top: 100%;
     }
@@ -245,27 +245,27 @@
 
     88% {
         left: -60px;
-        top: -10px;
+        top: -19px;
     }
 
     100% {
         left: 10%;
-        top: -10px;
+        top: -19px;
     }
 }
 
 @keyframes rotation-full-bw {
     0% {
         right: 20%;
-        bottom: -10px;
+        bottom: -19px;
     }
 
     25% {
         right: calc(70% + 58px);
-        bottom: -10px;
+        bottom: -19px;
     }
 
-    50% {
+    38% {
         right: calc(70% + 58px);
         bottom: 100%;
     }
@@ -277,11 +277,16 @@
 
     88% {
         right: -58px;
-        bottom: -10px;
+        bottom: -19px;
+    }
+
+    98% {
+      right: 10%;
+      bottom: -19px;
     }
 
     100% {
         right: 20%;
-        bottom: -10px;
+        bottom: -19px;
     }
 }
