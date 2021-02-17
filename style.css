@@ -162,3 +162,45 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white {
+    animation-name: rotation-short-tw;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.ex-12-bottom-white {
+    animation-name: rotation-short-bw;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation-short-tw {
+    0% {
+      left: 10%;
+    }
+
+    50% {
+      left: 59%;
+    }
+
+    100% {
+      left: 10%;
+    }
+}
+
+@keyframes rotation-short-bw {
+    0% {
+      right: 20%;
+    }
+
+    50% {
+      right: 69%;
+    }
+
+    100% {
+      right: 20%;
+    }
+}
